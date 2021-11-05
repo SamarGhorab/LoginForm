@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(36, 53, 63);
+    
+
+}
+
+    #signin,#signupform{
+        width: 63%;
+        background-color: rgb(36, 53, 63);
+        box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    
+       
+    }
+    .title{
+        color: #17a2b8;
+    }
+#signin .btnin ,.btnup1{
+    border: 1px solid #17a2b8;
+    color: #17a2b8;
+    
+}
+.btnin:hover,.btnup1:hover{
+    background-color: #17a2b8;
+    color: #fff;
+}
+#login{
+    border: 0;
+    color: #fff;
+
+}
+.last p {
+    margin-top: 15;
+    color: #fff;
+
+}
+.last button{
+    color: #fff;
+}
+input,.btnin,.btnup1{
+    width: 80%;
+}
+#signup:hover,#signin1:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+
+#home .hometitle{
+    background-color: rgb(36, 53, 63);
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+
+}
+#home .hometitle h4{
+    color: #fff;
+    margin-left: 50;
+}
+#home .btnout{
+    background-color: rgb(36,53,63);
+    border:1px solid  rgb(255, 193, 7);
+    border-radius: 5px;
+    padding: 7 10;
+    margin-right: 50;
+    color: rgba(255, 255, 255, 0.5);
+ 
+}
+#home .btnout:hover{
+    background-color: rgb(255, 193, 7);
+    color: #fff;
+
+
+}
+#data{
+    width: 60%;
+    height: 40%;
+    background-color: rgb(36,53,63);
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    position: absolute;
+    top: 30%;
+    left: 20%;
+
+
+}
+
+
+ h2{
+    color: #17a2b8;
+    text-align: center;
+}

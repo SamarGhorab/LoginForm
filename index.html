@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+
+    <div class=" text-center  mt-5 m-auto" id="signin">
+        <h1 class="title pt-5 pb-3">Smart Login System</h1>
+
+        <input id="email" class=" mb-3 p-2 form" placeholder="Enter your email">
+        <input type="password" id="password" class="  form mb-3 p-2 border-0" placeholder="Enter your password">
+        
+        <button class="btn btnin  mb-3" id="login">Login</button>
+        <div class="last d-flex text-center justify-content-center pb-5">
+            <p> Don’t have an account? </p><button class="btn btnup" id="signup">Sign Up</button>
+        </div>
+    </div>
+    <div class=" text-center  mt-5 m-auto d-none " id="signupform">
+        <h1 class="title pt-5 pb-3">Smart Login System</h1>
+        <div id="formAlert" class="text-danger d-none mb-2">fill all inputs....</div>
+        
+
+        <input id="name" class="form mb-3 p-2" placeholder="Enter your name">
+        <div id="nameAlert" class="text-danger d-none mb-2">user name is not valid....</div>
+
+
+        <input id="email1" class="form mb-3 p-2" placeholder="Enter your email">
+        <div id="email1Alert" class="text-danger d-none mb-2">email is not valid....</div>
+
+        <input type="password" id="password1" class=" form mb-3 p-2 border-0" placeholder="Enter your password">
+        <div id="pass1Alert" class="text-danger d-none mb-2">password is week....</div>
+
+        <button disabled class=" btn btnup1  mb-3" id="signup1">Sign up</button>
+        <div class="last d-flex text-center justify-content-center pb-5">
+            <p>You have an account?</p><button class="btn btnin1" id="signin1">Sign In</button>
+        </div>
+    </div>
+
+    <div id="home" class=" d-none">
+        <div class="hometitle d-flex text-center justify-content-between pe-5 ps-5 pt-2">
+            <h4>SMART LOGIN</h4> <button class="btnout mb-2" id="logout">Logout</button>
+        </div>
+
+        <div id="data" class="d-flex align-items-center justify-content-center">   
+          
+     
+        </div>
+    </div>
+
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
